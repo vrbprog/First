@@ -1,131 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="/css/style.css" />
-    </head>
-    <body>
-        <div class="wallpaper">
-            <header>
-                <div class="header_conteiner flex">
-                    <nav class="navigation flex">
-                        <a href="#" class="logo"
-                            >WEB<span class="logo_black">STUDIO</span></a
-                        >
-                        <ul class="nav_menu flex">
-                            <li>Studio</li>
-                            <li>Portfolio</li>
-                            <li>Contacts</li>
-                        </ul>
-                    </nav>
-                    <div class="contacts">
-                        <ul class="adress_menu flex">
-                            <li>info@devstudio.com</li>
-                            <li>+11 (000) 111-11-11</li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            <main>
-                <section class="header-section">
-                    <h1 class="main-header">
-                        Effective Solutions for Your Business
-                    </h1>
-                    <button class="button-header" type="button" data-modal-open>
-                        Order Service
-                    </button>
-                </section>
-                <section class="feature flex">
-                    <h2 hidden>Feature</h2>
-                    <div class="feature-item">
-                        <h3>Strategy</h3>
-                        <p>
-                            Our goal is to identify the business problem to walk
-                            away with the perfect and creative solution.
-                        </p>
-                    </div>
-                    <div class="feature-item">
-                        <h3>Strategy</h3>
-                        <p>
-                            Our goal is to identify the business problem to walk
-                            away with the perfect and creative solution.
-                        </p>
-                    </div>
-                    <div class="feature-item">
-                        <h3>Strategy</h3>
-                        <p>
-                            Our goal is to identify the business problem to walk
-                            away with the perfect and creative solution.
-                        </p>
-                    </div>
-                    <div class="feature-item">
-                        <h3>Strategy</h3>
-                        <p>
-                            Our goal is to identify the business problem to walk
-                            away with the perfect and creative solution.
-                        </p>
-                    </div>
-                </section>
-                <section class="doing">
-                    <h2 class="doing-header">What are we doing</h2>
-                    <div class="doing-set flex">
-                        <img src="./img/1.png" alt="" class="doing-img" />
-                        <img src="./img/2.png" alt="" class="doing-img" />
-                        <img src="./img/3.png" alt="" class="doing-img" />
-                    </div>
-                </section>
-                <section class="our-team">
-                    <h2 class="our-team-header">Our team</h2>
-                    <div class="team-set flex">
-                        <div class="team-item">
-                            <img
-                                src="./img/4.png"
-                                alt=""
-                                class="team-item-img"
-                            />
-                            <h3 class="item-name">Mark Guerrero</h3>
-                            <p>Product Designer</p>
-                        </div>
-                        <div class="team-item">
-                            <img
-                                src="./img/5.png"
-                                alt=""
-                                class="team-item-img"
-                            />
-                            <h3 class="item-name">Mark Guerrero</h3>
-                            <p>Product Designer</p>
-                        </div>
-                        <div class="team-item">
-                            <img
-                                src="./img/6.png"
-                                alt=""
-                                class="team-item-img"
-                            />
-                            <h3 class="item-name">Mark Guerrero</h3>
-                            <p>Product Designer</p>
-                        </div>
-                        <div class="team-item">
-                            <img
-                                src="./img/7.png"
-                                alt=""
-                                class="team-item-img"
-                            />
-                            <h3 class="item-name">Mark Guerrero</h3>
-                            <p>Product Designer</p>
-                        </div>
-                    </div>
-                </section>
-            </main>
-            <footer>
-                <a href="#" class="logo">WEB<span class="logo_white">STUDIO</span></a>
-                <p class="text-under-logo">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-            </footer>
-        </div>
-    </body>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Infinite Card Slider JavaScript | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fontawesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <i id="left" class="fa-solid fa-angle-left"></i>
+    <ul class="carousel">
+      <li class="card">
+        <div class="img"><img src="images/img-1.jpg" alt="img" draggable="false"></div>
+        <h2>Blanche Pearson</h2>
+        <span>Sales Manager</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="images/img-2.jpg" alt="img" draggable="false"></div>
+        <h2>Joenas Brauers</h2>
+        <span>Web Developer</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="images/img-3.jpg" alt="img" draggable="false"></div>
+        <h2>Lariach French</h2>
+        <span>Online Teacher</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="images/img-4.jpg" alt="img" draggable="false"></div>
+        <h2>James Khosravi</h2>
+        <span>Freelancer</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="images/img-5.jpg" alt="img" draggable="false"></div>
+        <h2>Kristina Zasiadko</h2>
+        <span>Bank Manager</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+        <h2>Donald Horton</h2>
+        <span>App Designer</span>
+      </li>
+    </ul>
+    <i id="right" class="fa-solid fa-angle-right"></i>
+  </div>
+
+</body>
+
 </html>
